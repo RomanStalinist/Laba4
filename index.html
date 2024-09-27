@@ -12,14 +12,7 @@
 	<input id="number2" type="number" min="-256" max="255" placeholder="2">
 	<input id="result" type="number" min="-512" max="510" placeholder="3" readonly>
 	<button id="btn">Посчитать</button>
-	<script>
-		const numberOne = document.getElementById('number1');
-		const numberTwo = document.getElementById('number2');
-		const result = document.getElementById('result');
-		const btn = document.getElementById('btn');
-		btn.addEventListener('click', () =>
-			result.value = parseInt(numberOne.value) + parseInt(numberTwo.value));
-	</script>
+	<script src="script.js"></script>
 </body>
 
 </html>
